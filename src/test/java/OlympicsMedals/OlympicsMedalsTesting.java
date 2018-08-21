@@ -181,11 +181,10 @@ public class OlympicsMedalsTesting {
 		// 1. Go to website https://en.wikipedia.org/wiki/2016_Summer_Olympics.
 		driver.get("https:en.wikipedia.org/wiki/2016_Summer_Olympics");
 		// 2. Write a method that takes country name and returns the row and column
-		// number. You decide the datatype of the return.
+		// number. You decide the data type of the return.
 		String expectedCountry = "Japan";
 		System.out.println("Japan's row and column = ["+getCountryRowColumn(expectedCountry)+"]");
 		Assert.assertEquals(getCountryRowColumn(expectedCountry), "6 2");
-
 	}
 
 	// Test Case 5: GET SUM
@@ -246,13 +245,14 @@ public class OlympicsMedalsTesting {
 		return result;
 	}
 
-	public Map<String, Integer> getMap(List<WebElement> list1, List<WebElement> list2) {
-		Map<String, Integer> map = new HashMap<>();
 
+	
+	public Map<String, Integer> getMap(List<WebElement> list1, List<WebElement> list2){
+		Map<String, Integer> map = new HashMap<>();
+		
 		for (int i = 0; i < list1.size(); i++) {
 			map.put(list1.get(i).getText(), Integer.valueOf(list2.get(i).getText()));
 		}
-
 		return map;
 	}
 
