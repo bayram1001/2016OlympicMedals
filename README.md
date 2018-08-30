@@ -1,7 +1,8 @@
 # 2016OlympicMedals
 
 GOALS:
-  Create a new maven project: 2016OlympicsMedals and add necessary libraries. Automate the following scenarios as a team. It is up to you how you design the classes and methods.
+ 
+ Create a new maven project: 2016OlympicsMedals and add necessary libraries. Automate the following scenarios as a team. It is up to you how you design the classes and methods.
 Push your project to GitHub.
 * Test Case 1: SORT TEST
   1. Go to website https://en.wikipedia.org/wiki/2016_Summer_Olympics#Medal_table.
